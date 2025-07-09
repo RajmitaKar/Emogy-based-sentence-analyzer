@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 2em;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #6200ee;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#outputEmoji {
+  font-size: 5em;
+  margin-top: 20px;
+}
+
+#status {
+  color: gray;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 1.5em;
+  }
+
+  input[type="text"], button {
+    width: 100%;
+  }
+
+  #outputEmoji {
+    font-size: 4em;
+  }
+}
